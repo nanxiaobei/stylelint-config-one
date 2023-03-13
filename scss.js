@@ -6,6 +6,9 @@ module.exports = {
   ],
   rules: {
     'scss/at-rule-no-unknown': [true, { ignoreAtRules: ['value'] }],
-    'rule-empty-line-before': ['always', { ignore: ['after-comment', 'first-nested'] }],
+    'rule-empty-line-before': [
+      'always',
+      { ignore: ['after-comment', 'first-nested'] },
+    ],
   },
 };

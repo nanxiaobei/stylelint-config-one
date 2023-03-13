@@ -6,6 +6,9 @@ module.exports = {
   ],
   rules: {
     'at-rule-no-unknown': null,
-    'rule-empty-line-before': ['always', { ignore: ['after-comment', 'first-nested'] }],
+    'rule-empty-line-before': [
+      'always',
+      { ignore: ['after-comment', 'first-nested'] },
+    ],
   },
 };
