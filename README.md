@@ -14,9 +14,11 @@ All-in-one stylelint config.
 ## Install
 
 ```bash
+pnpm add stylelint-config-one
+# or
 yarn add stylelint-config-one
-
-# npm install stylelint-config-one
+# or
+npm install stylelint-config-one
 ```
 
 ## Usage
@@ -24,6 +26,12 @@ yarn add stylelint-config-one
 You can choose one to extend in your `.stylelintrc`, based on your project style solution:
 
 ### CSS
+
+```json
+{
+  "extends": "stylelint-config-one"
+}
+```
 
 or
 
