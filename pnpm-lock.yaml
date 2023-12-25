@@ -11,9 +11,6 @@ dependencies:
   stylelint-config-css-modules:
     specifier: latest
     version: 4.4.0(stylelint@16.1.0)
-  stylelint-config-prettier:
-    specifier: latest
-    version: 9.0.5(stylelint@16.1.0)
   stylelint-config-recess-order:
     specifier: latest
     version: 4.4.0(stylelint@16.1.0)
@@ -856,16 +853,6 @@ packages:
       stylelint: 16.1.0
     optionalDependencies:
       stylelint-scss: 6.0.0(stylelint@16.1.0)
-    dev: false
-
-  /stylelint-config-prettier@9.0.5(stylelint@16.1.0):
-    resolution: {integrity: sha512-U44lELgLZhbAD/xy/vncZ2Pq8sh2TnpiPvo38Ifg9+zeioR+LAkHu0i6YORIOxFafZoVg0xqQwex6e6F25S5XA==}
-    engines: {node: '>= 12'}
-    hasBin: true
-    peerDependencies:
-      stylelint: '>= 11.x < 15'
-    dependencies:
-      stylelint: 16.1.0
     dev: false
 
   /stylelint-config-recess-order@4.4.0(stylelint@16.1.0):

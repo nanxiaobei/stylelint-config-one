@@ -17,7 +17,6 @@
   },
   "dependencies": {
     "stylelint-config-css-modules": "latest",
-    "stylelint-config-prettier": "latest",
     "stylelint-config-recess-order": "latest",
     "stylelint-config-standard": "latest",
     "stylelint-config-standard-scss": "latest"
