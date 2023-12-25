@@ -3,6 +3,15 @@
   "version": "2.5.0",
   "main": "index.js",
   "license": "MIT",
+  "homepage": "https://github.com/nanxiaobei/react-spring-dnd",
+  "files": [
+    "index.js",
+    "css.js",
+    "css-modules.js",
+    "scss.js",
+    "scss-modules.js"
+  ],
+  "scripts": {},
   "peerDependencies": {
     "stylelint": ">=14.0.0"
   },
